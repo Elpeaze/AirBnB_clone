@@ -2,11 +2,12 @@
 <head>
 	<title>AirBnB Clone</title>
 	<link rel="icon" href="./image/icon.png">
-	<link rel="stylesheet" href="./4-common.css">
-	<link rel="stylesheet" href="./3-header.css">
-	<link rel="stylesheet" href="./3-footer.css">
-	<link rel="stylesheet" href="./6-filters.css">
-	<link rel="stylesheet" href="./7-places.css">
+	<link rel="stylesheet" href="./styles/2-common.css">
+	<link rel="stylesheet" href="./styles/2-header.css">
+	<link rel="stylesheet" href="./styles/2-footer.css">
+	<link rel="stylesheet" href="./styles/5-filters.css">
+	<link rel="stylesheet" href="./styles/6-filters.css">
+	<link rel="stylesheet" href="./styles/7-places.css">
 </head>
 <body>
 	<header></header>
@@ -14,46 +15,49 @@
 		<section class="filters">
 			<div class="locations">
 				<h3>States</h3>
-				<h4>Lagos, Abuja...</h4>
-				<ul class="popover">
+				<h4>Lagos, Delta...</h4>
+				<div class="popover">
 					<h2>Lagos:</h2>
-					<li>Ikeja</li>
-					<li>Lekki</li>
-					<li>Ikoyi</li>
-					
-					<h2>Abuja:</h2>
-					<li>Wuse</li>
-					<li>Garki</li>
-					<li>Kudje</li>
-				</ul>
+					<ul>
+						<li>Ikeja</li>
+						<li>Lekki</li>
+					</ul>
+					<h2>Delta:</h2>
+					<ul>
+						<li>Asaba</li>
+						<li>Agbor</li>
+					</ul>
+				</div>
 			</div>
 			<div class="amenities">
 				<h3>Amenities</h3>
-				<h4>Starlink, Netflix...</h4>
-				<ul class="popover">
-					<li>Internet</li>
-					<li>Tv</li>
-					<li>Kitchen</li>
-					<li>Iron</li>
-				</ul>
+				<h4>Starlink, Games hall...</h4>
+				<div class="popover">
+					<ul>
+						<li>Internet</li>
+						<li>Tv</li>
+						<li>Kitchen</li>
+						<li>Iron</li>
+					</ul>
+				</div>
 			</div>
 			<button>Search</button>
 		</section>
-		<section class="places">
-			<h1>Places</h1>
-			<div class="articles">
-				<article>
-					<h2>My home</h2>
-				</article>
-				<article>
-					<h2>Tiny house</h2>
-				</article>
-				<article>
-					<h2>A suite</h2>
-				</article>
-			</div>
-		</section>
+			<section class="places">
+				<h1>Places</h1>
+				<div class="flex_places">
+					<article>
+						<h2>My home</h2>
+					</article>
+					<article>
+						<h2>Tiny house</h2>
+					</article>
+					<article>
+						<h2>A suite</h2>
+					</article>
+				</div>
+			</section>
 	</div>
-	<footer><strong>Best School</strong></footer>
+	<footer><b>Best School</b></footer>
 </body>
 </html>
