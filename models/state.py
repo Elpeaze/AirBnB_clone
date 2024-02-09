@@ -1,13 +1,9 @@
-#!/usr/bin/python3
-
-"""
-    Defines a class State.
-"""
+#!/usr/bin/pyhton3
+"""This module defines a class `State`"""
 
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """Represent a State."""
-
+    '''Defines a State'''
     name = ""

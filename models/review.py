@@ -1,15 +1,11 @@
-#!/usr/bin/python3
-
-"""
-    Defines a class Review.
-"""
+#!/usr/bin/pyhton3
+"""This module defines a class `Review`"""
 
 from models.base_model import BaseModel
 
 
 class Review(BaseModel):
-    """Represent a Review."""
-
+    '''Defines a Review'''
     place_id = ""
     user_id = ""
     text = ""
